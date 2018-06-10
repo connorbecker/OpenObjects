@@ -1,0 +1,4 @@
+#!/bin/sh
+
+gcc -g -lobjc -lopenobjects -fconstant-string-class=String -o test test_${1}.m
+./test

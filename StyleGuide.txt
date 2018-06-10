@@ -1,0 +1,18 @@
+OpenFoundation Style Guidelines
+-------------------------------
+Tabs vs. Spaces
+	Tabs are the preference, as one can set his editor to visually expand
+	them to any length.  Tab in at each logical block.
+Brace Placement
+	Braces for methods, functions, and instance variable blocks should all
+	be on their own lines, opening and closing. Anything deeper than that
+	is fair game between that and opening on the block statement and
+	closing on its own line.
+#import vs. #include
+	Use #include for C libraries (as most have header guards to protect
+	them) and use #import for Objective-C libraries.  Put #imports before
+	#includes.
+#imports in implementation files
+	For a given implementation file (.m), if it has a corresponding header
+	file (.h), only import the header in the implementation, and import
+	any other necessary files in the header itself.

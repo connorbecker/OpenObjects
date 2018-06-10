@@ -1,0 +1,47 @@
+@font-face{
+	font-family: Cantarell;
+	src: ("Cantarell-Regular.ttf"); /* No .eot for IE... */
+}
+
+body {
+	/*margin: 0 auto; /* enable this for centered content */
+	width: 800px;
+	font-family: Cantarell, sans-serif;
+}
+
+hr {
+	visibility: hidden;
+}
+
+h2 {
+	font-size: 2em;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin-bottom: 0px;
+}
+
+h3 {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #D9E1C8;
+	padding: 20px 15px 20px 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h3 a {
+	text-decoration: none;
+}
+
+ul dt, pre {
+	font-family: Courier, monospace;
+	font-size: 1em;
+}
+
+pre {
+	background-color: #FCF7EC;
+	white-space: pre-wrap;
+	margin: 0px 0px 0px 0px;
+	padding:5px 5px 3px 5px;
+}
